@@ -1,7 +1,7 @@
 <?php
 
 abstract class Car{
-	public $name;
+	public $name;							//it contains methods as well as properties unlike interfaces which has only 											//methods.
 	public $max_speed;
 
 
