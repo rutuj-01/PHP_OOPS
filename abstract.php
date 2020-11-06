@@ -3,7 +3,9 @@
 abstract class Car{
 	public $name;							//it contains methods as well as properties unlike interfaces which has only 	
 	public $max_speed;						//methods.
+
 	
+	//abstract class requires at least one function present in it.
 
 
 	public function __construct($name,$max_speed){
