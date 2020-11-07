@@ -5,7 +5,7 @@ abstract class Car{
 	public $max_speed;						//methods.
 
 	
-	//abstract class requires at least one function present in it.
+	//abstract class requires at least one abstract function present in it.
 
 
 	public function __construct($name,$max_speed){
